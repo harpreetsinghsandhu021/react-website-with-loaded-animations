@@ -1,0 +1,31 @@
+.footer {
+  text-align: center;
+  padding-bottom: 200px;
+
+  h3 {
+    margin-top: 12vh;
+    font-size: 6vw;
+    font-weight: 500;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      top: -4vh;
+      left: 10vw;
+      width: 80%;
+      height: 1px;
+      background-color: #000;
+    }
+  }
+
+  .location {
+    font-size: 12vw;
+    text-transform: uppercase;
+    font-family: "Bodoni Moda", serif;
+
+    opacity: 0;
+    &.is-reveal {
+      opacity: 1;
+    }
+  }
+}

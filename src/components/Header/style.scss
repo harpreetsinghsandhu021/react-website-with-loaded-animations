@@ -1,0 +1,37 @@
+.header-container {
+  position: relative;
+  padding: 0 10px;
+  margin-top: 140px;
+  .header-menu {
+    position: absolute;
+    left: 0;
+    top: 100px;
+
+    letter-spacing: 1px;
+    font-family: "Syncopate", sans-serif;
+    color: #626262;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    li {
+      margin: 10px 0;
+    }
+  }
+
+  h1 {
+    font-size: 14vw;
+    letter-spacing: -4px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1.04;
+    word-spacing: -30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+  }
+}
+.lineParent {
+  overflow: hidden;
+  .lineChildren {
+    transform: translate(0, 500px);
+  }
+}
